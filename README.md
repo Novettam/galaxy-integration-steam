@@ -1,4 +1,4 @@
-:warning: Although the current release of the plugin is working, I'm still testing figuring some stuff with help from my friends, regarding issues that may arise during instalation! :warning:
+:warning: Although the current release of the plugin is working, I'm still testing and figuring some stuff with help from my friends, regarding issues that may arise during instalation! :warning:
 
 # galaxy-integration-steam
 My attempt at creating a GOG galaxy steam integration that works by using Steam's Web API [https://steamcommunity.com/dev]
@@ -6,11 +6,11 @@ My attempt at creating a GOG galaxy steam integration that works by using Steam'
 Currently, just the basic plugin with support for logging into your steam account, the retrieval/creation of your Steam Web API key and synchronization of your library and game time.
 
 ## The plugin works in the follwing maner:
-1. When the user connects the plugin, the plugin opens the following url: https://steamcommunity.com/login/home/?goto=%2Fdev%2Fapikey" using the GOG Galaxy built in browser
+1. When the user connects the plugin, the plugin opens the following url: https://steamcommunity.com/login/home/?goto=%2Fdev%2Fapikey, using the GOG Galaxy built in browser
 2. The user is prompted to login into their Steam account
-3. Using the established session, the plugin acesses the Steam Web API to check if the user already had an wep api token that can be used
+3. Using the established session, the plugin accesses the Steam Web API form page to check if the user already had an wep api token that can be used
 
-   - Each steam user can only have one web api token, all applications that the user wants to give access to their Steam Web API context have to share that one tokem
+   - Each steam user can only have one web api token, all applications that the user wants to give access to their Steam Web API context have to share that one token
    - If the user does not have an API token, the plugin will submit the request form for the user, registering the token with "Created by GOG Galaxy Steam Integration" filled in the "Domain Name" field.
 
 4. Having obtained the Web API token, the plugin implements GOG Galaxy Client methods for obtaining steam's data for the user, library, game time, etc..
