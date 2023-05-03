@@ -1,0 +1,11 @@
+{
+    "name": "A GOG Galaxy Steam Integration Plugin",
+    "platform": "steam",
+    "guid": "c6cb8cda-9a27-48a7-a50e-f2bccb856d95",
+    "version": "0.1.0",
+    "description": "My attempt at building a gog galaxy steam integration",
+    "author": "novettam",
+    "email": "novettam@gmail.com",
+    "url": "https://github.com/Novettam/galaxy-integration-steam",
+    "script": "plugin.py"
+}

@@ -1,0 +1,3 @@
+beautifulsoup4==4.12.2 ; python_full_version > "3.7.0"
+galaxy-plugin-api==0.69 ; python_full_version > "3.7.0"
+requests==2.29.0 ; python_full_version > "3.7.0"
