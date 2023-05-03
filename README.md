@@ -5,7 +5,7 @@ My attempt at creating a GOG galaxy steam integration that works by using Steam'
 
 Currently, just the basic plugin with support for logging into your steam account, the retrieval/creation of your Steam Web API key and synchronization of your library and game time.
 
-## The plugin works in the follwing maner:
+## How the plugin works
 1. When the user connects the plugin, the plugin opens the following url: https://steamcommunity.com/login/home/?goto=%2Fdev%2Fapikey, using the GOG Galaxy built in browser
 2. The user is prompted to login into their Steam account
 3. Using the established session, the plugin accesses the Steam Web API form page to check if the user already had an wep api token that can be used
@@ -36,6 +36,16 @@ The user can manually go to https://steamcommunity.com/dev/apikey and revoke the
 4.  :white_square_button: Friends list
 5. ??
 
+## Contributing
+* Clone the repo straight into the GOG Galaxy plugin lookup folder
+* Run `pip install -r requirements.txt -t . --implementation cp --python-version 37 --only-binary=:all:` in the project folder
+* Open GOG Galaxy, connect and check if everything is working
+* Hack away, add new stuff, open a pull request
+   
+   * Don't commit packages you add, but don't forget to add them to the requirements.txt (still trying to figure ou a better way to manage this, coming from C# (nuget) and JS (npm), how I miss them!!)
+
+### Development notes
+You can debug by attaching to the python process, but the galaxy client will kill the process if it doesn't receive a reply after a while, which sucks, still have not found a way to disable that. (launching the client with the --debug=1 flag doesn't help with that)
 
 ###
 This is a community created GOG Galaxy Steam integration plugin, as such:
