@@ -50,6 +50,6 @@ You can debug by attaching to the python process, but the galaxy client will kil
 ###
 This is a community created GOG Galaxy Steam integration plugin, as such:
 
-It is not affiliated with, endorsed by, sponsored by, or endorsed by Valve Corporation, the owner of the Steam trademark. 
+It is not affiliated with, endorsed by, or sponsored by Valve Corporation, the owner of the Steam trademark. 
 
-It is not affiliated with, endorsed by, sponsored by, or endorsed by CD PROJEKT S.A, the owner of the GOG and GOG GALAXY trademarks. 
+It is not affiliated with, endorsed by, or sponsored by CD PROJEKT S.A, the owner of the GOG and GOG GALAXY trademarks. 
