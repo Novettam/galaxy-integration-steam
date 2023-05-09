@@ -47,6 +47,10 @@ The user can manually go to https://steamcommunity.com/dev/apikey and revoke the
 ### Development notes
 You can debug by attaching to the python process, but the galaxy client will kill the process if it doesn't receive a reply after a while, which sucks, still have not found a way to disable that. (launching the client with the --debug=1 flag doesn't help with that)
 
+### Reference API's
+STEAM API: https://developer.valvesoftware.com/wiki/Steam_Web_API
+GOG GALAXY PLUGIN API: https://galaxy-integrations-python-api.readthedocs.io/en/latest/index.html 
+
 ###
 This is a community created GOG Galaxy Steam integration plugin, as such:
 
